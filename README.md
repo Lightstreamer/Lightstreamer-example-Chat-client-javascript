@@ -49,7 +49,7 @@ The demo are now ready to be launched.
 See Also
 --------
 
-* To be add: Lightstreamer Chat Demo Adapter.
+* [Lightstreamer Chat Demo Adapter](https://github.com/Weswit/Lightstreamer-example-Chat-adapter-java)
 
 
 Lightstreamer Compatibility Notes
