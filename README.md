@@ -43,7 +43,7 @@ The client demo configuration assumes that Lightstreamer Server, Lightstreamer A
 var lsClient = new LightstreamerClient(protocolToUse+"//localhost:8080","DEMO");
 ```
 in js/lsClient.js file and change it accordingly.<br>
-Anyway the CHAT_ROOM Adapter and ChatMetadataAdapter (to be added) have to be deployed in your local Lightstreamer server instance. The factory configuration of Lightstreamer server already provides this adapter deployed.<br>
+Anyway the [CHAT_ROOM](https://github.com/Weswit/Lightstreamer-example-Chat-adapter-java) and [ChatMetadataAdapter](https://github.com/Weswit/Lightstreamer-example-Chat-adapter-java) Adapters have to be deployed in your local Lightstreamer server instance. The factory configuration of Lightstreamer server already provides this adapter deployed.<br>
 The demo are now ready to be launched.
 
 See Also
