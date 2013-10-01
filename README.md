@@ -8,7 +8,7 @@ This project includes a simple web client front-end example for the [Lightstream
 <table>
   <tr>
     <td style="text-align: left">
-      &nbsp;<a href="http://demos.lightstreamer.com/ChatDemo" target="_blank"><img src="http://www.lightstreamer.com/img/demo/screen_chat.png"></a>&nbsp;
+      &nbsp;<a href="http://demos.lightstreamer.com/ChatDemo" target="_blank"><img src="screen_chat.png"></a>&nbsp;
       
     </td>
     <td>
