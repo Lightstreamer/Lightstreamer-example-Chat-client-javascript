@@ -1,4 +1,5 @@
 # Lightstreamer - Basic Chat Demo - HTML Client #
+<!-- START DESCRIPTION Basic Chat Demo -->
 
 This project includes a simple web client front-end example for the [Lightstreamer - Basic Chat Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Chat-adapter-java).
 
@@ -25,6 +26,8 @@ The demo includes the following client-side technologies:
 * A [Subscription](http://www.lightstreamer.com/docs/client_javascript_uni_api/Subscription.html) containing 1 item, subscribed to in <b>DISTINCT</b> mode feeding a [DynaGrid](http://www.lightstreamer.com/docs/client_javascript_uni_api/DynaGrid.html).
 * The chat messages are sent to the Lightstreamer Server using the [LightstreamerClient.sendMessage](http://www.lightstreamer.com/docs/client_javascript_uni_api/LightstreamerClient.html#sendMessage) utility.
 
+<!-- END DESCRIPTION Basic Chat Demo -->
+
 # Deploy #
 
 Before you can run the demo some dependencies need to be solved:
@@ -48,9 +51,12 @@ The demo are now ready to be launched.
 # See Also #
 
 ## Lightstreamer Adapters needed by this demo client ##
+<!-- START RELATED_ENTRIES -->
 
 * [Lightstreamer - Basic Chat Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Chat-adapter-java)
 * [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+
+<!-- END RELATED_ENTRIES -->
 
 ## Similar demo clients that may interest you ##
 
