@@ -3,18 +3,8 @@
 
 This project includes a simple web client front-end example for the [Lightstreamer - Basic Chat Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Chat-adapter-java).
 
-<table>
-  <tr>
-    <td style="text-align: left">
-      &nbsp;<a href="http://demos.lightstreamer.com/ChatDemo" target="_blank"><img src="screen_chat.png"></a>&nbsp;
-      
-    </td>
-    <td>
-      &nbsp;An online demonstration is hosted on our servers at:<br>
-      &nbsp;<a href="http://demos.lightstreamer.com/ChatDemo" target="_blank">http://demos.lightstreamer.com/ChatDemo</a>
-    </td>
-  </tr>
-</table>
+[![screenshot](screen_chat_large.png)](http://demos.lightstreamer.com/ChatDemo/)<br>
+An online demonstration is hosted on our servers at: [http://demos.lightstreamer.com/ChatDemo/](http://demos.lightstreamer.com/ChatDemo/)<br>
 
 This <b>Basic Chat Demo</b> implements an extremely simple chat application, where all the users connected to the page can exchange messages. Each message reports the originating IP address, together with the user-agent string of the originating client, instead of leveraging a nick name.<br>
 Launch multiple instances of the demo, possibly on different machines, to appreciate the message broadcast capability.<br>
@@ -50,7 +40,7 @@ The demo are now ready to be launched.
 
 # See Also #
 
-## Lightstreamer Adapters needed by this demo client ##
+## Lightstreamer Adapters Needed by This Demo Client ##
 <!-- START RELATED_ENTRIES -->
 
 * [Lightstreamer - Basic Chat Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Chat-adapter-java)
