@@ -44,7 +44,7 @@
     <div id="message_scroll" class="messagePanel">
       <!-- message row template; will be cloned for each incoming message -->
       <div class="messageContainer" id="messages" data-source="lightstreamer">
-        <span class="messageTimestamp" data-source="lightstreamer" data-field="timestamp"></span>
+        <span class="messageTimestamp" data-source="lightstreamer" data-field="raw_timestamp"></span>
         <span class="messageIP">&nbsp;- From IP address</span>
         <span class="messageIP" data-source="lightstreamer" data-field="IP"></span>
         <br />
@@ -132,6 +132,9 @@
           color = this.associated[sender_identifier];
         }
 
+        //format date
+        var date = new Date(Number(info.getCellValue("raw_timestamp")));
+        info.setCellValue("raw_timestamp",date.toUTCString());
         
         info.setHotTime(1000); // message highlighting time
         info.setHotToColdTime(2500); // highlight fading time
