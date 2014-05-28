@@ -163,7 +163,7 @@
     
     date = new Date(Number(date));
     
-    var offset = date.getTimezoneOffset() / 60;
+    var offset = -date.getTimezoneOffset() / 60;
     var sign = offset > 0 ? "+" : "";
     
     var dateMs = ""+date.getMilliseconds();
