@@ -25,7 +25,20 @@ define(["LightstreamerClient","StatusWidget"],function(LightstreamerClient,Statu
     
     lsClient.connectionSharing.enableSharing("ChatDemoCommonConnection", "ATTACH", "CREATE");
     lsClient.addListener(new StatusWidget("left", "0px", true));
-    lsClient.connect();
+    
+    if (document.webkitVisibilityState != "prerender") {
+      //non webkit will pass from here
+      lsClient.connect();
+    } else {
+      document.addEventListener("webkitvisibilitychange", function() {
+        //don't care which status it is now, the important thing is that is not prerender
+        //(as per documentation documents can't go from a non-prerender status to a prerender status,
+        //well, it makes sense)
+        lsClient.connect(); 
+      }, false);
+    }
+    
+    
     
     return lsClient;
 });
