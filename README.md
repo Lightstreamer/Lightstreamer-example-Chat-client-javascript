@@ -28,7 +28,7 @@ The demo includes the following client-side functionalities:
 
 Note that, as prerequisite, the [Basic Chat Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Chat-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 
-* Clone this project.
+* Download this project.
 * Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) 
    and put it in the `src/js` folder. Alternatively you can build a `lightstreamer.js` file from the 
    [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_1_Colosseo_20130305/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html).
