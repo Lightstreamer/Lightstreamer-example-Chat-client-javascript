@@ -34,12 +34,8 @@ Note that, as prerequisite, the [Basic Chat Demo - Java Adapter](https://github.
    [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_1_Colosseo_20130305/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html).
    In that case be sure to include the LightstreamerClient, Subscription, DynaGrid, and StatusWidget modules and to use the "Use AMD" version.
 *  Get the `require.js` file form [requirejs.org](http://requirejs.org/docs/download.html) and put it in the `src/js` folder.
-* Deploy this demo on the Lightstreamer server (used as Web server) or in any external Web Server. If you choose the former, please note that in the `<LS_HOME>/pages/demos/` folder there may be already a `ChatDemo` folder, copy of the `/src` directory of this project, if this is not your case please create the folders `<LS_HOME>/pages/demos/ChatDemo` and copy here the contents of the `/src` folder of this project.
-The client demo configuration assumes that Lightstreamer Server, Lightstreamer Adapters and this client are launched on the same machine. If you need to targeting a different Lightstreamer server please search this line:
-```js
-var lsClient = new LightstreamerClient(protocolToUse+"//localhost:"+portToUse,"CHAT");
-```
-in js/lsClient.js file and change it accordingly.<br>
+* Deploy this demo on the Lightstreamer Server (used as Web server) or in any external Web Server. If you choose the former, please note that in the `<LS_HOME>/pages/demos/` folder there may be already a `ChatDemo` folder. If this is not your case please create the folders `<LS_HOME>/pages/demos/ChatDemo` and copy here the contents of the `/src` folder of this project.
+The client demo configuration assumes that Lightstreamer Server, Lightstreamer Adapters and this client are launched on the same machine. If you need to targeting a different Lightstreamer server please search in `js/lsClient.js` this line:<BR/> `var lsClient = new LightstreamerClient(protocolToUse+"//localhost:"+portToUse,"CHAT");`<BR/> and change it accordingly.
 * Open your browser and point it to: [http://localhost:8080/demos/ChatDemo/](http://localhost:8080/demos/ChatDemo/)
 
 ## See Also
