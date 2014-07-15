@@ -2,6 +2,7 @@
 <!-- START DESCRIPTION lightstreamer-example-chat-client-javascript -->
 
 The Lightstreamer Basic Chat Demo is a very simple chat application based on Lightstreamer.
+
 This project includes a simple web client front-end example for the [Lightstreamer - Basic Chat Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Chat-adapter-java).
 
 ## Live Demo
