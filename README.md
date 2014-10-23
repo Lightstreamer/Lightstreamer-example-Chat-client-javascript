@@ -31,7 +31,7 @@ If you want to install a version of this demo pointing to your local Lightstream
 * Download this project.
 * Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) 
    and put it in the `src/js` folder. Alternatively, you can build a `lightstreamer.js` file from the 
-   [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_1_Colosseo_20130305/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html).
+   [online generator](http://www.lightstreamer.com/docs/client_javascript_tools/generator.html).
    In that case, be sure to include the LightstreamerClient, Subscription, DynaGrid, and StatusWidget modules and to use the "Use AMD" version.
 *  Get the `require.js` file form [requirejs.org](http://requirejs.org/docs/download.html) and put it in the `src/js` folder.
 * Deploy this demo on the Lightstreamer Server (used as Web server) or in any external Web Server. If you choose the former, please note that in the `<LS_HOME>/pages/demos/` folder, there may be already a `ChatDemo` folder. If this is not your case, please create the folders `<LS_HOME>/pages/demos/ChatDemo` and copy here the contents of the `/src` folder of this project.
