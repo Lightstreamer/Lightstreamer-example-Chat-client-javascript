@@ -3,7 +3,7 @@
 
 The Lightstreamer Basic Chat Demo is a very simple chat application based on Lightstreamer.
 
-This project includes a simple web client front-end example for the [Lightstreamer - Basic Chat Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Chat-adapter-java).
+This project includes a simple web client front-end example for the [Lightstreamer - Basic Chat Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Chat-adapter-java).
 
 ## Live Demo
 
@@ -27,7 +27,7 @@ The demo includes the following client-side functionalities:
 
 ## Install
 If you want to install a version of this demo pointing to your local Lightstreamer Server, follow these steps:
-* As prerequisite, the [Basic Chat Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Chat-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
+* As prerequisite, the [Basic Chat Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Chat-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Download this project.
 * Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) 
    and put it in the `src/js` folder. Alternatively, you can build a `lightstreamer.js` file from the 
@@ -43,14 +43,14 @@ The client demo configuration assumes that Lightstreamer Server, Lightstreamer A
 ### Lightstreamer Adapters Needed by This Client
 <!-- START RELATED_ENTRIES -->
 
-* [Lightstreamer - Basic Chat Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Chat-adapter-java)
-* [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+* [Lightstreamer - Basic Chat Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Chat-adapter-java)
+* [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-ReusableMetadata-adapter-java)
 
 <!-- END RELATED_ENTRIES -->
 
 ### Related Projects
 
-* [Lightstreamer - Basic Messenger Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-Messenger-client-javascript)
+* [Lightstreamer - Basic Messenger Demo - HTML Client](https://github.com/Lightstreamer/Lightstreamer-example-Messenger-client-javascript)
 
 ## Lightstreamer Compatibility Notes
 
