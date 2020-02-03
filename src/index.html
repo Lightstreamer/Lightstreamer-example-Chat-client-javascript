@@ -66,7 +66,7 @@
 
 <!-- load Lightstreamer libraries -->
 <script src="js/require.js"></script>
-<script src="js/lightstreamer.js"></script>
+<script src="js/lightstreamer.min.js"></script>
 <script type="text/javascript">
 
 //////////////// Message Submission Form Handling
@@ -158,8 +158,8 @@
         var ip = document.location.protocol == "file:" ? "localhost" : document.location.hostname;
 
 		    chatGrid.updateRow(1, {raw_timestamp: new Date(), IP: ip, nick: "Administrator", message: "Chat history flushed... Let's keep it clean" });
-		  }
-	  });
+		}
+	});
     lsClient.subscribe(chatSubscription);
   });
 
