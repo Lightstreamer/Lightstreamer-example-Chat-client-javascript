@@ -7,7 +7,7 @@ This project includes a simple web client front-end example for the [Lightstream
 
 ## Live Demo
 
-[![screenshot](screen_chat_large.png)](http://demos.lightstreamer.com/ChatDemo)
+[![screenshot](screen_chat_large.png)](https://demos.lightstreamer.com/ChatDemo/)
 
 ### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](https://demos.lightstreamer.com/ChatDemo/)
 
