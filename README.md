@@ -51,4 +51,4 @@ The client demo configuration assumes that Lightstreamer Server, Lightstreamer A
 
 ## Lightstreamer Compatibility Notes
 
-- Compatible with Lightstreamer JavaScript Client library version 6.0 or newer.
+- Compatible with Lightstreamer JavaScript Client library version 6.0 or newer (installation instructions for version 8.0 or newer).
