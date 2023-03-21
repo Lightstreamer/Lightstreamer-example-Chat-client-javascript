@@ -29,10 +29,7 @@ The demo includes the following client-side functionalities:
 If you want to install a version of this demo pointing to your local Lightstreamer Server, follow these steps:
 * As prerequisite, the [Basic Chat Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Chat-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Download this project.
-* Get the `lightstreamer.min.js` file for Web Client SDK version 8.0.x from [npm](https://www.npmjs.com/package/lightstreamer-client-web/v/8.0.7) or [unpkg](https://unpkg.com/lightstreamer-client-web@8.0/lightstreamer.min.js) and put it in the `src/js` folder.
-  Alternatively, you can generate a customized lightstreamer.min.js library containing only the classes you actually use;
-  see the build instructions on the [GitHub page](https://github.com/Lightstreamer/Lightstreamer-lib-client-javascript#building).
-  In that case, be sure to include the LightstreamerClient, Subscription, DynaGrid, ConnectionSharing, and StatusWidget modules.
+* Get the `lightstreamer.min.js` file from [npm](https://www.npmjs.com/package/lightstreamer-client-web) or [unpkg](https://unpkg.com/lightstreamer-client-web/lightstreamer.min.js) and put it in the `src/js` folder.
 * Get the `require.js` file form [requirejs.org](http://requirejs.org/docs/download.html) and put it in the `src/js` folder.
 * Deploy this demo on the Lightstreamer Server (used as Web server) or in any external Web Server. If you choose the former, please note that in the `<LS_HOME>/pages/demos/` folder, there may be already a `ChatDemo` folder. If this is not your case, please create the folders `<LS_HOME>/pages/demos/ChatDemo` and copy here the contents of the `/src` folder of this project.
 The client demo configuration assumes that Lightstreamer Server, Lightstreamer Adapters, and this client are launched on the same machine. If you need to target a different Lightstreamer server, please search in `js/lsClient.js` this line:<BR/> `var lsClient = new LightstreamerClient(protocolToUse+"//localhost:"+portToUse,"CHAT");`<BR/> and change it accordingly.
@@ -54,4 +51,4 @@ The client demo configuration assumes that Lightstreamer Server, Lightstreamer A
 
 ## Lightstreamer Compatibility Notes
 
-- Compatible with Lightstreamer JavaScript Client library version 6.0 to 8.0.x (installation instructions for version 8.0.x).
+- Compatible with Lightstreamer JavaScript Client library version 6.0 or newer.
